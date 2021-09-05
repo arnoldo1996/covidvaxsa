@@ -14,8 +14,8 @@ df = pd.read_csv(url)
 cv19 = alt.Chart(df).mark_bar().encode(
     x='date', y='people_vaccinated',color = 'people_fully_vaccinated',
     tooltip=['date', 'people_vaccinated','people_fully_vaccinated']).interactive().properties(
-    width=1000,
-    height=400
+    width=1500,
+    height=600
 ).configure_axis(
     labelFontSize=20,
     titleFontSize=20
