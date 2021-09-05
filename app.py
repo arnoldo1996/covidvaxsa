@@ -3,7 +3,7 @@ import altair as alt
 import pandas as pd
 
 #Chart heading
-st.title('Covid Vaccines Progress over time in South Africa')
+st.title('Covid Vaccination Rollout over time in South Africa')
 
 # Source file
 url = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/country_data/South%20Africa.csv"
