@@ -16,6 +16,9 @@ cv19 = alt.Chart(df).mark_bar().encode(
     tooltip=['date', 'people_vaccinated','people_fully_vaccinated']).interactive().properties(
     width=1000,
     height=400
+).configure_axis(
+    labelFontSize=20,
+    titleFontSize=20
 )
 
 #Display chart
